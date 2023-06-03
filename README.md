@@ -11,3 +11,5 @@ Featurization: The features were generated using the RDkit and DeepChem packages
 
 Model performance: Random Forest was used to classify molecules based on the Lipinski’s rule of 5, a binary classification problem that achieved true positive rate of 98%. However, rule of 5 is not the best approach to classifying a molecule to have good absorption properties. XGBoost regressor overperformed Linear regression for all three types of featurizations. The MAE of XGBoost was 0.55, 0.49 and 0.33 for MD, FP, and MD+FP respectively. Feature engineering approaches like similarity profiles using Tanimoto coefficients can likely improve the model performance. 
 ![image](https://github.com/kra268/Erdos_project/assets/83828591/adabc292-317d-4e25-8dc8-f0212a30784b)
+
+In addition to this work, please check this page for CYP inhibition predictions:https://github.com/sonjoydasphd/FunSimpleProjects/blob/65a9962a4f6891284a5907f04b22c24ffe742da7/DrugDiscovery_CYP.ipynb
